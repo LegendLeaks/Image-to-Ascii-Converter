@@ -29,30 +29,6 @@ def main():
     pixels = im.load() # get pixel data of img in (r, g, b, a) format
     output = '' # ascii output
 
-    # convert each pixel to an ASCII character based on brightness
-    for y in range(height):
-        for x in range(width):
-            pixel_data = pixels[x, y]
-            brightness = calcBrightness(pixel_data)
-            output += convertToAscii(brightness)
-        output += '\n'
-
-
-    # save to text file
-    f = open(output_path, "w")
-    f.write(output)
-    f.close()
-
-    print('done!')
-
-def main2():
-    # load image
-    im = Image.open(img_path)
-    width, height = im.size
-
-    pixels = im.load() # get pixel data of img in (r, g, b, a) format
-    output = '' # ascii output
-
     compression = 25
 
     # convert each pixel to an ASCII character based on brightness
@@ -83,4 +59,4 @@ def main2():
 
 
 if __name__ == '__main__':
-    main2()
+    main()
