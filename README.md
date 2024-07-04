@@ -3,6 +3,7 @@
 
 Supports compression of the ASCII image (eg. compression value of 5 means 1 character for each 5x5 square of pixels)
 
+
 ### Converting Charmander to ASCII with a compression value of 10
 
 |    Image      |     ASCII     |
