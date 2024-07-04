@@ -7,7 +7,8 @@ Supports compression of the ASCII image (eg. compression value of 5 means 1 char
 
 |    Image      |     ASCII     |
 | ------------- | ------------- |
-| ![image](https://github.com/LegendLeaks/Image-to-Ascii-Converter/assets/79763213/2dcf88c2-4ef5-475d-8799-dc8930d83d2d)  | ![image](https://github.com/LegendLeaks/Image-to-Ascii-Converter/assets/79763213/d140c1b3-827a-44c8-8344-fec8e3185174)
-  |
+| ![image](https://github.com/LegendLeaks/Image-to-Ascii-Converter/assets/79763213/2dcf88c2-4ef5-475d-8799-dc8930d83d2d)  | ![image](https://github.com/LegendLeaks/Image-to-Ascii-Converter/assets/79763213/d140c1b3-827a-44c8-8344-fec8e3185174) |
 
+Low compression will result in lots of characters. This one has over 750k characters!
 
+![image](https://github.com/LegendLeaks/Image-to-Ascii-Converter/assets/79763213/16d52ea3-03b3-4712-a7dd-d7af7c1236d1)
